@@ -18,7 +18,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
         }
     }**
    - app.module.ts under the src/app folder. Look for this part and update it based on your WebAPI domain
-    ** allowedDomains: ["localhost:7283"],**
+     ' allowedDomains: ["localhost:7283"],'
 
   ## Important
   1. We are using this GitHub link for the backend https://github.com/otep-domingo/WebAPI
