@@ -11,14 +11,14 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 2. Download the project in your local computer
 3. Unzip it and locate the following files:
    - config.json under the src/assets/config folders
-       **{
+       `{
         "apiServer": {
           "url": "https://localhost:7283",
           "version": "v1"
         }
-    }**
+    }`
    - app.module.ts under the src/app folder. Look for this part and update it based on your WebAPI domain
-     ' allowedDomains: ["localhost:7283"],'
+     ` allowedDomains: ["localhost:7283"],`
 
   ## Important
   1. We are using this GitHub link for the backend https://github.com/otep-domingo/WebAPI
